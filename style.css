@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 5vw;
+}
+
+body 
+{
+    background-color: pink;
+    color: white;
+}
+
+nav  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+background-color: white;
+color: pink;
+}
+
+footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.About {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top: 100px;  
+}
+
+.Contact {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    margin-top: 100px;  
+}
+
+.P {
+    margin-bottom: 70px;
+}
+
+.Input-name {
+    max-width: 100px;
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    height: auto;
+    border: 3px solid white;
+    margin: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+  .Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+
+  .Card-Image {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid white;
+  }
+
+  .Card-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .Main-index {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+
+  .main-products {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+
+  .Main-contact {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+
+  .Main-about {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+  }
+
+  @media only screen and (max-width: 800px) {
+    header {
+      font-size: 6vw;
+    }
+    .Index_h1 {
+      font-size: 15vw;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    header {
+      font-size: 8vw;
+    }
+    .Index_h1 {
+      font-size: 14vw;
+    }
+  }
